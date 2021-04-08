@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useQuery } from "react-query";
 import { getUser, getUserPosts } from "../api";
 
 const userDetails = (user) => (
